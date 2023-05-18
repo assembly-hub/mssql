@@ -2,7 +2,11 @@ module github.com/assembly-hub/mssql
 
 go 1.19
 
-require github.com/microsoft/go-mssqldb v0.21.0
+require (
+	github.com/assembly-hub/db v1.1.0
+	github.com/assembly-hub/impl-db-sql v1.1.0
+	github.com/microsoft/go-mssqldb v0.21.0
+)
 
 require (
 	github.com/golang-sql/civil v0.0.0-20190719163853-cb61b32ac6fe // indirect
