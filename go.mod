@@ -3,8 +3,8 @@ module github.com/assembly-hub/mssql
 go 1.19
 
 require (
-	github.com/assembly-hub/db v1.1.0
-	github.com/assembly-hub/impl-db-sql v1.1.0
+	github.com/assembly-hub/db v1.2.0
+	github.com/assembly-hub/impl-db-sql v1.2.2
 	github.com/microsoft/go-mssqldb v0.21.0
 )
 
